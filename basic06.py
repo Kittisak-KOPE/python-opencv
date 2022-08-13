@@ -1,6 +1,6 @@
 import cv2 
 
-cap = cv2.VideoCapture(0) #
+cap = cv2.VideoCapture(0) # 0 : camera
 
 while (True):
     check , frame = cap.read() #รับภาพจากกล้อง frame ต่อ frame
